@@ -9,15 +9,15 @@ Users can be able to:
 
 ### Screenshot
 
-![](screenshots/Screenshot_Interactive-rating-component.png)
+![scr1](/screenshots/Scr.png)
 ---
-![](screenshots/Screenshot%202.png)
+![scr2](/screenshots/Screenshot2.png)
 ---
-![](screenshots/Screenshot%20from%202023-02-15%2016-45-56.png)
+![scr3](/screenshots/Screenshot5.png)
 ---
-![](screenshots/Screenshot%203.png)
+![scr4](/screenshots/Screenshot3.png)
 ---
-![](screenshots/Screenshot%204.png)
+![scr5](/screenshots/Screenshot4.png)
 ## My process
 
 ### Built with
