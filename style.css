@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Orange: hsl(25, 97%, 53%);
+  --white: hsl(0, 0%, 100%);
+  --Light-Grey: hsl(213, 8%, 26%);
+  --Medium-Grey: hsl(216, 12%, 54%);
+  --Dar-Blue: hsl(213, 19%, 18%);
+  --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+body {
+  padding: 15px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Very-Dark-Blue);
+  font-family: "Overpass", sans-serif;
+}
+.rating,
+.thanks {
+  min-width: 300px;
+  max-width: 400px;
+  min-height: 300px;
+  max-height: 400px;
+  border-radius: 1rem;
+  padding: 2rem;
+  background-color: var(--Dar-Blue);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.rating .rt {
+  display: flex;
+  justify-content: space-between;
+}
+.rating .rt span {
+  background-color: var(--Light-Grey);
+  height: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: var(--Medium-Grey);
+}
+.rating .rt span:hover {
+  background-color: var(--Medium-Grey);
+  color: var(--white);
+}
+
+.rating button {
+  height: 35px;
+  border-radius: 1rem;
+  border: none;
+  background-color: var(--Orange);
+  font-size: larger;
+  color: var(--white);
+}
+.rating button:hover{
+    background-color: var(--white);
+    color: var(--Orange);
+}
+.img {
+  height: 45px;
+  width: 45px;
+  background-color: var(--Light-Grey);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.rating p {
+  color: var(--Medium-Grey);
+}
+
+h2 {
+  color: var(--white);
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.thanks {
+  justify-content: center;
+  align-items: center;
+}
+.thanks-text > p {
+  text-align: center;
+  color: var(--Medium-Grey);
+}
+.result {
+  color: var(--Orange);
+  background-color: var(--Light-Grey);
+  padding: 8px 20px;
+  border-radius: 1rem;
+}
+
+/* .rating{
+    display: none;
+} */
+
+.thanks {
+  display: none;
+}
+
+
+.selectedItem {
+    background-color: var(--Orange) !important;
+    color: var(--white) !important;
+  }
