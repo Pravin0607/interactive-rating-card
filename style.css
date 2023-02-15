@@ -47,6 +47,7 @@ body {
   align-items: center;
   border-radius: 50%;
   color: var(--Medium-Grey);
+  cursor: pointer;
 }
 .rating .rt span:hover {
   background-color: var(--Medium-Grey);
